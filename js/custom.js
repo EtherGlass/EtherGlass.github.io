@@ -341,7 +341,7 @@
 				id: "EG-21",
 				title: "EtherGlass #21",
 				catergory: CAT_ANIMAL,
-				picPath: "images/nfts/1.jpeg",
+				picPath: "images/nfts/EG21.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025676003225370644"
 			},
