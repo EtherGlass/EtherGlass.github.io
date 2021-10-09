@@ -122,14 +122,14 @@ blockquote {
 }
 .banner {
 	width: 100%;
-	height: 100%;
+	height: 200%;
 	min-height: 100%;
 	position: relative;
 	color: #fff;
 }
 .banner-image {
 	vertical-align: middle;
-	min-height: 100%;
+	height: 100%;
 	width: 100%;
 }
 .banner:after {
@@ -138,12 +138,12 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(74, 4, 38, 0.53);
+	background-color: rgba(90, 4, 45, 0.53);
 	content: "";
 }
 .banner-caption {
 	position: absolute;
-	top: 50%;
+	top: 20%;
 	width: 100%;
 	z-index: 2;
 }
@@ -246,7 +246,7 @@ border:0px;
 .bg-image-2 {
 }
 .caption-data {position: absolute; top: 50%; left: 50%; z-index: 20; text-align: center; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); transform: translate(-50%,-50%);}
-.caption-data h1 {text-transform: uppercase;}
+/* .caption-data h1 {text-transform: uppercase;} */
 .caption-data h1 span {font-size: inherit; line-height: inherit; font-weight: inherit;}
 .caption-data h3{line-height:34px;}
 button.cta-button.btn-light, button.cta-button.btn-dark, .contact-form button.cta-button, button.cta-button.btn-default {
