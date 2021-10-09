@@ -436,7 +436,7 @@
 			{
 				id: "EG-H",
 				title: "EtherGlass #H",
-				catergory: CAT_ANIMAL,
+				catergory: CAT_ANIMAL + " + "+ CAT_LUCK,
 				picPath: "images/nfts/EGh.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025689197364904145"
