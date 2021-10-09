@@ -107,8 +107,12 @@
 		const CAT_PLANT = "plant";
 		const CAT_ICON = "icon";
 		const CAT_ANIMAL = "animal";
-
+		
+		
 		const CAT_OTHER = "other";
+
+		const CAT_LUCK = "luck";
+		const CAT_ZERO = "zero";
 
 		var items = [
             {
@@ -278,7 +282,7 @@
 			{
 				id: "EG-18",
 				title: "EtherGlass #18",
-				catergory: CAT_ANIMAL,
+				catergory: CAT_ANIMAL + " + "+ CAT_LUCK,
 				picPath: "images/nfts/EG18.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025670505667232410"
@@ -286,7 +290,7 @@
 			{
 				id: "EG-19",
 				title: "EtherGlass #19",
-				catergory: CAT_ANIMAL,
+				catergory: CAT_ANIMAL + " + "+ CAT_LUCK,
 				picPath: "images/nfts/EG19.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025671605178860408"
@@ -302,7 +306,7 @@
 			{
 				id: "ZERO-1",
 				title: "ZERO #1",
-				catergory: CAT_ANIMAL,
+				catergory: CAT_ANIMAL + " + "+ CAT_ZERO,
 				picPath: "images/nfts/ZERO1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025673804202115082"
@@ -310,7 +314,7 @@
 			{
 				id: "ZERO-2",
 				title: "ZERO #2",
-				catergory: CAT_MATH,
+				catergory: CAT_MATH + " + "+ CAT_ZERO,
 				picPath: "images/nfts/ZERO2.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025674903713742858"
