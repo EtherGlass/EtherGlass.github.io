@@ -38,7 +38,7 @@
 		});
 		shuffleArray(picPaths);
 		
-		$(".banner-image").backstretch(picPaths, {duration: 4000, fade: 2000});
+		$(".banner-image").backstretch(picPaths, {duration: 3500, fade: 2000});
 		
 		// Fixed header
 		//-----------------------------------------------

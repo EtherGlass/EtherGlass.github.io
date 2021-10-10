@@ -113,6 +113,7 @@ blockquote {
 .header {
 	color: #ffffff;
 	background-color: rgba(0, 0, 0, 1);
+	opacity: 0.8;
 	padding: 10px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -131,6 +132,7 @@ blockquote {
 	vertical-align: middle;
 	height: 100%;
 	width: 100%;
+	opacity: 0.8;
 }
 .banner:after {
 	position: absolute;
@@ -138,7 +140,7 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(90, 4, 45, 0.53);
+	background-color: rgba(90, 4, 45, 0.53); 
 	content: "";
 }
 .banner-caption {
@@ -708,13 +710,14 @@ padding: 10px 0;
 	float: left;
 }
 .brand {
-	font-size: 38px;
+	font-size: 40px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	padding: 10px 0;
+	padding: 20px 0;
+	padding-left: 10px;
 }
 .brand a {
 	color: #ffffff;
