@@ -710,7 +710,7 @@ padding: 10px 0;
 	float: left;
 }
 .brand {
-	font-size: 40px;
+	font-size: 35px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -903,7 +903,7 @@ border-radius: 50%;
 
 
 .timer {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .timer .days-wrapper,
