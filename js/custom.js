@@ -5,9 +5,40 @@
 
 
 (function($){
+	const CAT_MATH = "math";
+	const CAT_PLANT = "plant";
+	const CAT_ARCH = "architecture";
+	const CAT_ANIMAL = "animal";
+	const CAT_ICON = "icon";
+	const CAT_MOGAO = "mogao";
+	const CAT_OTHER = "other";
+
+	const CAT_MAIN = "main";
+	const CAT_LUCK = "luck";
+	const CAT_DARK = "dark";
+	const CAT_DOGE = "doge";
+	const CAT_CAT = "cat";
+	const CAT_BIRD = "bird";
+	const CAT_ZERO = "zero";
+	const CAT_CRYPTO = "crypto";
+	const CAT_MOMENT = "moment";
+
+	var items = getMetadata();
+
+	// Renderring
+    // ------------------------------------------------------------------------------------------------
+    
+
 	$(document).ready(function(){
-	
-		$(".banner-image").backstretch('images/banner.jpg');
+
+		// slideshows
+		picPaths = ['images/banner.jpg']
+		items.forEach(data => {
+			picPaths.push(data.picPath);
+		});
+		shuffleArray(picPaths);
+		
+		$(".banner-image").backstretch(picPaths, {duration: 4000, fade: 2000});
 		
 		// Fixed header
 		//-----------------------------------------------
@@ -101,42 +132,90 @@
 				});
 			});
 		};
+		
+		items.forEach(data => {
+			$(buildItem(data)).prependTo( "#portfolio" );
+		});
+			
 
-		// add portfolio
-		/*
-			<li class="active"><a href="#" data-filter="*">All</a></li>
-								<li><a href="#" data-filter=".math">Generative</a></li>
-								<li><a href="#" data-filter=".plant">Plant</a></li>
-								<li><a href="#" data-filter=".animal">Animal</a></li>
-								<li><a href="#" data-filter=".architecture">Architecture</a></li>
-								<li><a href="#" data-filter=".icon">Icons</a></li>
-								<li><a href="#" data-filter=".mogao">Mogao Mural</a></li>
-								<li><a href="#" data-filter=".other">Others</a></li>
-							</ul>
-							<ul class="nav nav-pills">
-								<li><a href="#" data-filter=".luck">Luck</a></li>
-								<li><a href="#" data-filter=".zero">ZERO</a></li>
-		*/
-		const CAT_MATH = "math";
-		const CAT_PLANT = "plant";
-		const CAT_ARCH = "architecture";
-		const CAT_ANIMAL = "animal";
-		const CAT_ICON = "icon";
-		const CAT_MOGAO = "mogao";
-		const CAT_OTHER = "other";
+		//Modal
+		//-----------------------------------------------
+		if($(".modal").length>0) {
+			$(".modal").each(function() {
+				var mod = $(".modal");
+				$(".modal").prependTo( "body" );
+			});
 
-		const CAT_MAIN = "main";
-		const CAT_LUCK = "luck";
-		const CAT_DARK = "dark";
-		const CAT_DOGE = "doge";
-		const CAT_CAT = "cat";
-		const CAT_BIRD = "bird";
-		const CAT_ZERO = "zero";
-		const CAT_CRYPTO = "crypto";
-		const CAT_MOMENT = "moment";
+		}
 
-		var items = [
-            {
+
+
+		function buildItem(data) {
+
+			return `
+			<!-- item --------->
+			<div id = "modalWindow" class="col-sm-6 col-md-3 isotope-item ${data.catergory}">
+				<div class="image-box">
+					<div class="overlay-container">
+						<img src=${data.picPath} alt="">
+						<a class="overlay" data-toggle="modal" data-target="#${data.id}">
+							<i class="fa fa-search-plus"></i>
+							 
+						</a>
+					</div>
+					<a class="btn btn-default btn-block" data-toggle="modal" data-target="#${data.id}">${data.title}</a>
+				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="${data.id}" tabindex="-1" role="dialog" aria-labelledby="${data.id}-label" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span>
+									<span class="sr-only">Close</span></button>
+								<h4 class="modal-title" id="${data.id}-label">${data.title}</h4>
+							</div>
+							<div class="modal-body">
+								
+								<div class="row">												 
+									<div class="col-md-12">
+										<img src=${data.picPath} alt="">
+										<br/>
+										<h3>Buy:</h3>
+										<p><a href=${data.itemLink} target="_blank" data-filter=".${data.catergory}">Go to ${data.marketplace}</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Modal end -->
+			</div>
+			<!-- item end -->
+			`
+		}
+
+
+
+
+
+	}); // End document ready
+
+	  /* Randomize array in-place using Durstenfeld shuffle algorithm */
+    function shuffleArray(array) {
+       for (var i = array.length - 1; i > 0; i--) {
+           var j = Math.floor(Math.random() * (i + 1));
+           var temp = array[i];
+           array[i] = array[j];
+           array[j] = temp;
+        }
+    }
+
+	function getMetadata() {
+		return [
+			{
 				id: "EG-0",
 				title: "EtherGlass #0",
 				catergory: CAT_MATH,
@@ -144,7 +223,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025650714457941776"
 			},
-
+		
 			{
 				id: "EG-1",
 				title: "EtherGlass #1",
@@ -153,7 +232,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025649614946304010" 
 			},
-
+		
 			{
 				id: "EG-2",
 				title: "EtherGlass #2",
@@ -162,7 +241,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025651813969559553" 
 			},
-
+		
 			{
 				id: "EG-3",
 				title: "EtherGlass #3",
@@ -171,7 +250,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025652913481187338"
 			},
-
+		
 			{
 				id: "EG-4",
 				title: "EtherGlass #4",
@@ -180,8 +259,8 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025654012992815114"
 			},
-
-            {
+		
+			{
 				id: "EG-5",
 				title: "EtherGlass #5",
 				catergory: CAT_PLANT + " + "+ CAT_MAIN,
@@ -197,7 +276,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025656212016070657"
 			},
-
+		
 			{
 				id: "EG-7",
 				title: "EtherGlass #7",
@@ -206,7 +285,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025657311527698437"
 			},
-
+		
 			{
 				id: "EG-8",
 				title: "EtherGlass #8",
@@ -215,7 +294,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025658411039326210"
 			},
-
+		
 			{
 				id: "EG-9",
 				title: "EtherGlass #9",
@@ -224,7 +303,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025659510550954505"
 			},
-
+		
 			{
 				id: "EG-10",
 				title: "EtherGlass #10",
@@ -233,7 +312,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025660610062581860"
 			},
-
+		
 			{
 				id: "EG-11",
 				title: "EtherGlass #11",
@@ -242,7 +321,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025661709574209546"
 			},
-
+		
 			{
 				id: "EG-K",
 				title: "EtherGlass #K",
@@ -251,7 +330,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025662809085837313"
 			},
-
+		
 			{
 				id: "EG-12",
 				title: "EtherGlass #12",
@@ -540,7 +619,7 @@
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025695794434670642"
 			},
-
+		
 			{
 				id: "EG-45",
 				title: "EtherGlass #45",
@@ -950,75 +1029,6 @@
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025752969039316884"
 			}
 			
-        ];
-		
-		items.forEach(data => {
-			$(buildItem(data)).prependTo( "#portfolio" );
-		});
-			
-
-		//Modal
-		//-----------------------------------------------
-		if($(".modal").length>0) {
-			$(".modal").each(function() {
-				var mod = $(".modal");
-				$(".modal").prependTo( "body" );
-			});
-
-		}
-
-
-
-		function buildItem(data) {
-
-			return `
-			<!-- item --------->
-			<div id = "modalWindow" class="col-sm-6 col-md-3 isotope-item ${data.catergory}">
-				<div class="image-box">
-					<div class="overlay-container">
-						<img src=${data.picPath} alt="">
-						<a class="overlay" data-toggle="modal" data-target="#${data.id}">
-							<i class="fa fa-search-plus"></i>
-							 
-						</a>
-					</div>
-					<a class="btn btn-default btn-block" data-toggle="modal" data-target="#${data.id}">${data.title}</a>
-				</div>
-				<!-- Modal -->
-				<div class="modal fade" id="${data.id}" tabindex="-1" role="dialog" aria-labelledby="${data.id}-label" aria-hidden="true">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span>
-									<span class="sr-only">Close</span></button>
-								<h4 class="modal-title" id="${data.id}-label">${data.title}</h4>
-							</div>
-							<div class="modal-body">
-								
-								<div class="row">												 
-									<div class="col-md-12">
-										<img src=${data.picPath} alt="">
-										<br/>
-										<h3>Buy:</h3>
-										<p><a href=${data.itemLink} target="_blank" data-filter=".${data.catergory}">Go to ${data.marketplace}</a></p>
-									</div>
-								</div>
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Modal end -->
-			</div>
-			<!-- item end -->
-			`
-		}
-
-
-
-
-
-	}); // End document ready
+		];
+	}
 })(this.jQuery);
