@@ -128,6 +128,8 @@
 		const CAT_MAIN = "main";
 		const CAT_LUCK = "luck";
 		const CAT_DARK = "dark";
+		const CAT_DOGE = "doge";
+		const CAT_CAT = "cat";
 		const CAT_BIRD = "bird";
 		const CAT_ZERO = "zero";
 		const CAT_CRYPTO = "crypto";
@@ -277,7 +279,7 @@
 			{
 				id: "EG-15",
 				title: "EtherGlass #15",
-				catergory: CAT_ICON + " + "+ CAT_MAIN,
+				catergory: CAT_ICON + " + "+ CAT_MAIN + " + "+ CAT_DOGE,
 				picPath: "images/nfts/EG15.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025667207132349416"
@@ -365,7 +367,7 @@
 			{
 				id: "EG-24",
 				title: "EtherGlass #24",
-				catergory: CAT_ANIMAL + " + "+ CAT_MAIN,
+				catergory: CAT_ANIMAL + " + "+ CAT_MAIN + " + "+ CAT_DOGE,
 				picPath: "images/nfts/EG24.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025679301760254018"
@@ -493,7 +495,7 @@
 			{
 				id: "EG-39",
 				title: "EtherGlass #39",
-				catergory: CAT_ANIMAL + " + "+ CAT_MAIN,
+				catergory: CAT_ANIMAL + " + "+ CAT_MAIN + " "+ CAT_DARK,
 				picPath: "images/nfts/EG39.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/76505008690628832182644120658996052592304759113794803818016025651813969559553"
@@ -501,7 +503,7 @@
 			{
 				id: "EG-40",
 				title: "EtherGlass #40",
-				catergory: CAT_ANIMAL + " + "+ CAT_MAIN,
+				catergory: CAT_ANIMAL + " + "+ CAT_MAIN + " "+ CAT_DARK,
 				picPath: "images/nfts/EG40.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025693595411415090"
@@ -542,7 +544,7 @@
 			{
 				id: "EG-45",
 				title: "EtherGlass #45",
-				catergory: CAT_ANIMAL + " + "+ CAT_MAIN,
+				catergory: CAT_ANIMAL + " + "+ CAT_MAIN + " + "+ CAT_CAT,
 				picPath: "images/nfts/EG45.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025696893946298378"
@@ -550,14 +552,14 @@
 			{
 				id: "EG-46",
 				title: "EtherGlass #46",
-				catergory: CAT_ANIMAL + " + "+ CAT_MAIN,
+				catergory: CAT_ANIMAL + " + "+ CAT_MAIN + " + "+ CAT_CAT,
 				picPath: "images/nfts/EG46.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/76505008690628832182644120658996052592304759113794803818016025655112504442881"
 			},{
 				id: "EG-47",
 				title: "EtherGlass #47",
-				catergory: CAT_ANIMAL + " + "+ CAT_MAIN,
+				catergory: CAT_ANIMAL + " + "+ CAT_MAIN + " + "+ CAT_CAT,
 				picPath: "images/nfts/EG47.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025697993457926244"
@@ -592,7 +594,7 @@
 			},{
 				id: "EG-B",
 				title: "EtherGlass #B",
-				catergory: CAT_ANIMAL + " " + CAT_LUCK + " + "+ CAT_MAIN,
+				catergory: CAT_ANIMAL + " " + CAT_LUCK + " + "+ CAT_MAIN + " + "+ CAT_DOGE,
 				picPath: "images/nfts/EGb.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025701291992809672"
@@ -725,7 +727,7 @@
 			},{
 				id: "cyberdoge",
 				title: "EtherGlass CyberDoge",
-				catergory: CAT_ANIMAL  + " "+ CAT_ICON,
+				catergory: CAT_ANIMAL  + " "+ CAT_ICON + " "+ CAT_DOGE,
 				picPath: "images/nfts/cyberdoge.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025718884178853988"
@@ -753,7 +755,7 @@
 			},{
 				id: "tobycorgi",
 				title: "EtherGlass Toby the Corgi",
-				catergory: CAT_ANIMAL,
+				catergory: CAT_ANIMAL + " + "+ CAT_DOGE,
 				picPath: "images/nfts/tobycorgi.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025723282225367012"
