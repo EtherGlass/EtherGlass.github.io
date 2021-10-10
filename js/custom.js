@@ -422,7 +422,7 @@
 			{
 				id: "EG-21",
 				title: "EtherGlass #21",
-				catergory: CAT_ANIMAL + " + "+ CAT_MAIN,
+				catergory: CAT_ANIMAL + " + "+ CAT_MAIN + " + "+ CAT_DOGE,
 				picPath: "images/nfts/EG21.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025676003225370644"
@@ -462,7 +462,7 @@
 			{
 				id: "EG-26",
 				title: "EtherGlass #26",
-				catergory: CAT_ANIMAL + " + "+ CAT_MAIN,
+				catergory: CAT_ANIMAL + " + "+ CAT_MAIN + " + "+ CAT_CAT,
 				picPath: "images/nfts/EG26.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025681500783509514"
@@ -470,7 +470,7 @@
 			{
 				id: "EG-27",
 				title: "EtherGlass #27",
-				catergory: CAT_ANIMAL + " + "+ CAT_MAIN,
+				catergory: CAT_ANIMAL + " + "+ CAT_MAIN + " + "+ CAT_CAT,
 				picPath: "images/nfts/EG27.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025682600295137285"
@@ -486,7 +486,7 @@
 			{
 				id: "EG-29",
 				title: "EtherGlass #29",
-				catergory: CAT_ANIMAL + " + "+ CAT_MAIN,
+				catergory: CAT_ANIMAL + " + "+ CAT_MAIN + " + "+ CAT_CAT,
 				picPath: "images/nfts/EG29.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025684799318392842"
@@ -827,7 +827,7 @@
 			},{
 				id: "cryptotiger",
 				title: "EtherGlass CryptoTiger",
-				catergory: CAT_ANIMAL,
+				catergory: CAT_ANIMAL + " + "+ CAT_CAT,
 				picPath: "images/nfts/cryptotiger.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025722182713746104"
@@ -953,7 +953,7 @@
 			},{
 				id: "EG-65",
 				title: "EtherGlass #65",
-				catergory: CAT_ANIMAL,
+				catergory: CAT_ANIMAL + " + "+ CAT_CAT,
 				picPath: "images/nfts/EG65.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025741973923037384"
