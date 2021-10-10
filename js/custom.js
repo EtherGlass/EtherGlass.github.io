@@ -574,7 +574,7 @@
 			{
 				id: "EG-11",
 				title: "EtherGlass #11",
-				catergory: CAT_PLANT + " + "+ CAT_MAIN,
+				catergory: CAT_MATH + " + "+ CAT_MAIN,
 				picPath: "images/nfts/EG11.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025661709574209546"
