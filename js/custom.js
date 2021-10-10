@@ -195,8 +195,7 @@
 									<div class="col-md-12">
 										<img src=${data.picPath} alt="">
 										<br/>
-										<h3>Buy:</h3>
-										<p><a href=${data.itemLink} target="_blank" data-filter=".${data.catergory}">Go to ${data.marketplace}</a></p>
+										<p><a href=${data.itemLink} target="_blank" data-filter=".${data.catergory}">Buy on ${data.marketplace}</a></p>
 									</div>
 								</div>
 							</div>
