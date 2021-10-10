@@ -145,7 +145,7 @@ blockquote {
 }
 .banner-caption {
 	position: absolute;
-	top: 40%;
+	top: 55%;
 	width: 100%;
 	z-index: 2;
 }
@@ -899,4 +899,33 @@ border-radius: 50%;
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+
+
+.timer {
+    margin-top: 10px;
+}
+
+.timer .days-wrapper,
+.timer .hours-wrapper,
+.timer .minutes-wrapper,
+.timer .seconds-wrapper {
+    display: inline-block;
+    width: 120px;
+    margin: 5px 5px;
+    font-size: 15px;
+    padding: 5px 5px;
+    background-color: rgba(255, 255, 255, 0.17);
+    border-radius: 20%;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    box-shadow: 1px 0px 4px #5F5F5F;
+}
+
+.timer .days,
+.timer .hours,
+.timer .minutes,
+.timer .seconds {
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 90px;
 }
