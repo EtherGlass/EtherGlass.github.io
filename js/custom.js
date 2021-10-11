@@ -10,20 +10,22 @@
 	const CAT_ARCH = "architecture";
 	const CAT_ANIMAL = "animal";
 	const CAT_ICON = "icon";
-	const CAT_MOGAO = "mogao";
 	const CAT_OTHER = "other";
 
-	const CAT_MAIN = "main";
+	
 	const CAT_LUCK = "luck";
 	const CAT_DARK = "dark";
 	const CAT_DOGE = "doge";
 	const CAT_CAT = "cat";
 	const CAT_BIRD = "bird";
 	const CAT_LOGO = "logo";
-	const CAT_ZERO = "zero";
+	const CAT_ART = "art";
 	const CAT_CRYPTO = "crypto";
 	const CAT_MOMENT = "moment";
 
+	const CAT_MAIN = "main";
+	const CAT_ZERO = "zero";
+	const CAT_MOGAO = "mogao";
 	const CAT_DISC = "disc";
 
 	var items = getMetadata();
@@ -1116,7 +1118,7 @@
 			},{
 				id: "time1",
 				title: "EtherGlass TIME",
-				catergory: CAT_ICON + " "+ CAT_LOGO,
+				catergory: CAT_ICON + " "+ CAT_LOGO + " "+ CAT_ART,
 				picPath: "images/nfts/time1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025726580760257320"
@@ -1144,7 +1146,7 @@
 			},{
 				id: "vogue1",
 				title: "EtherGlass VOGUE",
-				catergory: CAT_ICON + " "+ CAT_LOGO,
+				catergory: CAT_ICON + " "+ CAT_LOGO + " "+ CAT_ART,
 				picPath: "images/nfts/vogue1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025730978806761089"
@@ -1172,7 +1174,7 @@
 			},{
 				id: "marvel1",
 				title: "EtherGlass MARVEL",
-				catergory: CAT_ICON + " "+ CAT_LOGO,
+				catergory: CAT_ICON + " "+ CAT_LOGO + " "+ CAT_ART,
 				picPath: "images/nfts/marvel1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025735376853272032"
@@ -1249,21 +1251,21 @@
 			},{
 				id: "picasso1",
 				title: "EtherGlass Picasso I",
-				catergory: CAT_ICON,
+				catergory: CAT_ICON + " "+ CAT_ART,
 				picPath: "images/nfts/picasso1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025747471481176074"
 			},{
 				id: "vangogh1",
 				title: "EtherGlass Van Gogh I",
-				catergory: CAT_ICON,
+				catergory: CAT_ICON + " "+ CAT_ART,
 				picPath: "images/nfts/vangogh1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025748570992803850"
 			},{
 				id: "monet1",
 				title: "EtherGlass Monet I",
-				catergory: CAT_ICON,
+				catergory: CAT_ICON + " "+ CAT_ART,
 				picPath: "images/nfts/monet1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025749670504431626"
@@ -1277,7 +1279,7 @@
 			},{
 				id: "hokusai1",
 				title: "EtherGlass Hokusai I",
-				catergory: CAT_ICON,
+				catergory: CAT_ICON + " "+ CAT_ART,
 				picPath: "images/nfts/hokusai1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025751869527687188"
