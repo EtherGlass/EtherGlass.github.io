@@ -24,7 +24,10 @@
 	const CAT_CRYPTO = "crypto";
 	const CAT_MOMENT = "moment";
 
+	const CAT_DISC = "disc";
+
 	var items = getMetadata();
+	shuffleArray(items);
 	// Renderring
     // ------------------------------------------------------------------------------------------------
     
@@ -52,7 +55,6 @@
 		items.forEach(data => {
 			picPaths.push(data.picPath);
 		});
-		shuffleArray(picPaths);
 		
 		$(".banner-image").backstretch(picPaths, {duration: 3500, fade: 2000});
 		
@@ -477,7 +479,7 @@
 			{
 				id: "EG-0",
 				title: "EtherGlass #0",
-				catergory: CAT_MATH,
+				catergory: CAT_MATH + " + "+ CAT_DISC,
 				picPath: "images/nfts/EG0.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025650714457941776"
@@ -495,7 +497,7 @@
 			{
 				id: "EG-2",
 				title: "EtherGlass #2",
-				catergory: CAT_MATH + " + "+ CAT_MAIN,
+				catergory: CAT_MATH + " + "+ CAT_MAIN + " + "+ CAT_DISC,
 				picPath: "images/nfts/EG2.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025651813969559553" 
@@ -673,7 +675,7 @@
 			{
 				id: "ZERO-2",
 				title: "ZERO #2",
-				catergory: CAT_MATH + " + "+ CAT_ZERO,
+				catergory: CAT_MATH + " + "+ CAT_ZERO + " + "+ CAT_DISC,
 				picPath: "images/nfts/ZERO2.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025674903713742858"
@@ -1100,14 +1102,14 @@
 			},{
 				id: "disc1",
 				title: "EtherGlass DISC I",
-				catergory: CAT_MATH,
+				catergory: CAT_MATH + " + "+ CAT_DISC,
 				picPath: "images/nfts/disc1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025724381736999768"
 			},{
 				id: "disc2",
 				title: "EtherGlass DISC II",
-				catergory: CAT_MATH,
+				catergory: CAT_MATH + " + "+ CAT_DISC,
 				picPath: "images/nfts/disc2.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025725481248627210"
@@ -1149,14 +1151,14 @@
 			},{
 				id: "disc3",
 				title: "EtherGlass DISC III",
-				catergory: CAT_MATH,
+				catergory: CAT_MATH + " + "+ CAT_DISC,
 				picPath: "images/nfts/disc3.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025732078318394300"
 			},{
 				id: "disc4",
 				title: "EtherGlass DISC IV",
-				catergory: CAT_MATH,
+				catergory: CAT_MATH + " + "+ CAT_DISC,
 				picPath: "images/nfts/disc4.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025733177830022976"
@@ -1177,7 +1179,7 @@
 			},{
 				id: "disc5",
 				title: "EtherGlass DISC V",
-				catergory: CAT_MATH,
+				catergory: CAT_MATH + " + "+ CAT_DISC,
 				picPath: "images/nfts/disc5.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025736476364905304"
