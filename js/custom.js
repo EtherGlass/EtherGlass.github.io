@@ -46,7 +46,7 @@
 		*/
 		// var now = new Date();
 		// var countTo = 3 * 24 * 60 * 60 * 1000 + now.valueOf();   
-		var eventDate = new Date('Oct 13 2021 00:00:00 EST');
+		var eventDate = new Date('Oct 18 2021 08:00:00 EST');
 		var countTo = eventDate.valueOf();
 		$('.timer').countdown(countTo, function (event) {
 			$(this).find('.days').text(event.offset.totalDays);
