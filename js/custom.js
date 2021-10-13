@@ -30,6 +30,7 @@
 	const CAT_ZERO = "zero";
 	const CAT_MOGAO = "mogao";
 	const CAT_DISC = "disc";
+	const CAT_ZODC = "zodiac";
 
 	var items = getMetadata();
 	shuffleArray(items);
@@ -56,7 +57,9 @@
 
 
 		// slideshows
-		picPaths = ['images/banner.jpg']
+		picPaths = []
+		picPaths.push('images/posts/zodiacs.jpg');
+		picPaths.push('images/banner.jpg');
 		items.forEach(data => {
 			picPaths.push(data.picPath);
 		});
@@ -1300,6 +1303,90 @@
 				picPath: "images/nfts/yorker1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025754068550943751"
+			}, {
+				id: "aquarius",
+				title: "EtherGlass Zodiac Aquarius",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/aquarius.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418724788064224432"
+			}, {
+				id: "aries",
+				title: "EtherGlass Zodiac Aries",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/aries.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418726987087479984"
+			}, {
+				id: "cancer",
+				title: "EtherGlass Zodiac Cancer",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/cancer.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418730285622363312"
+			}, {
+				id: "capricorn",
+				title: "EtherGlass Zodiac Capricorn",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/capricorn.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418736882692129968"
+			}, {
+				id: "gemini",
+				title: "EtherGlass Zodiac Gemini",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/gemini.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418729186110735536"
+			}, {
+				id: "leo",
+				title: "EtherGlass Zodiac Leo",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/leo.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418731385133991088"
+			}, {
+				id: "libra",
+				title: "EtherGlass Zodiac Libra",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/libra.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418733584157246640"
+			}, {
+				id: "pisces",
+				title: "EtherGlass Zodiac Pisces",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/pisces.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418725887575852208"
+			}, {
+				id: "sagittarius",
+				title: "EtherGlass Zodiac Sagittarius",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/sagittarius.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418735783180502192"
+			}, {
+				id: "scorpio",
+				title: "EtherGlass Zodiac Scorpio",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/scorpio.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418734683668874416"
+			}, {
+				id: "taurus",
+				title: "EtherGlass Zodiac Taurus",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/taurus.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418728086599107760"
+			}, {
+				id: "virgo",
+				title: "EtherGlass Zodiac Virgo",
+				catergory: CAT_ZODC,
+				picPath: "images/nfts/zodiac/virgo.jpg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418732484645618864"
 			}
 
 		];
