@@ -28,6 +28,7 @@
 
 	const CAT_MAIN = "main";
 	const CAT_ZERO = "zero";
+	const CAT_ONE = "one";
 	const CAT_MOGAO = "mogao";
 	const CAT_DISC = "disc";
 	const CAT_ZODC = "zodiac";
@@ -1026,28 +1027,28 @@
 			}, {
 				id: "1ETH",
 				title: "ONE ETH",
-				catergory: CAT_CRYPTO,
+				catergory: CAT_CRYPTO + " + " + CAT_ONE,
 				picPath: "images/nfts/1ETH.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025711187597459466"
 			}, {
 				id: "1BTC",
 				title: "ONE BTC",
-				catergory: CAT_CRYPTO,
+				catergory: CAT_CRYPTO + " + " + CAT_ONE,
 				picPath: "images/nfts/1BTC.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025712287109087242"
 			}, {
 				id: "1DOGE",
 				title: "ONE DOGE",
-				catergory: CAT_CRYPTO,
+				catergory: CAT_CRYPTO + " + " + CAT_ONE,
 				picPath: "images/nfts/1DOGE.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025713386620715018"
 			}, {
 				id: "1ADA",
 				title: "ONE ADA",
-				catergory: CAT_CRYPTO,
+				catergory: CAT_CRYPTO + " + " + CAT_ONE,
 				picPath: "images/nfts/1ADA.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025714486132342794"
@@ -1061,14 +1062,14 @@
 			}, {
 				id: "1PolygonGif",
 				title: "ONE Polygon Giraffe",
-				catergory: CAT_ANIMAL,
+				catergory: CAT_ANIMAL + " + " + CAT_ONE,
 				picPath: "images/nfts/1PolygonGif.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025706789550948452"
 			}, {
 				id: "1BV",
 				title: "ONE Intrecciato Giraffe",
-				catergory: CAT_ANIMAL,
+				catergory: CAT_ANIMAL + " + " + CAT_ONE,
 				picPath: "images/nfts/1BV.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025717784667226122"
@@ -1299,7 +1300,7 @@
 			}, {
 				id: "yorker1",
 				title: "EtherGlass NEW YORKER",
-				catergory: CAT_ART + " " + CAT_DARK + " + " + CAT_MGZN,
+				catergory: CAT_ART + " " + CAT_DARK + " + " + CAT_MGZN + " + " + CAT_LOGO,
 				picPath: "images/nfts/yorker1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025754068550943751"
