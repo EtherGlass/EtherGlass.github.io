@@ -59,6 +59,7 @@
 
 		// slideshows
 		picPaths = []
+		picPaths.push('images/posts/discs.jpg');
 		picPaths.push('images/posts/zodiacs.jpg');
 		picPaths.push('images/banner.jpg');
 		items.forEach(data => {
