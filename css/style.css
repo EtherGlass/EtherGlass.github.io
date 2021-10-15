@@ -760,10 +760,10 @@ border-radius: 50%;
 	width: 98px;
 	height: 98px;
 	display: inline-block;
-	/* border-radius: 50%; */
+	/* border-radius: 50%;*/
 	font-size: 26px;
 	text-align: center;
-	padding: 4px;
+	padding: 2px;
 }
 .social-links {
 	padding: 0;
