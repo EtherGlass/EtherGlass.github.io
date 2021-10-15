@@ -750,6 +750,21 @@ border-radius: 50%;
 	}
 /* Social Links
 ---------------------------------- */
+.promote-logo {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	/* border: 1px solid #D0D0D0; */
+	width: 98px;
+	height: 98px;
+	display: inline-block;
+	/* border-radius: 50%; */
+	font-size: 26px;
+	text-align: center;
+	padding: 4px;
+}
 .social-links {
 	padding: 0;
 	list-style: none;
