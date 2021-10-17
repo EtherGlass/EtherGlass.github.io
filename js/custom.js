@@ -45,16 +45,16 @@
 		/*
 			Countdown initializer
 		*/
-		// var now = new Date();
-		// var countTo = 3 * 24 * 60 * 60 * 1000 + now.valueOf();   
-		// var eventDate = new Date('Oct 18 2021 08:00:00 EST');
-		// var countTo = eventDate.valueOf();
-		// $('.timer').countdown(countTo, function (event) {
-		// 	$(this).find('.days').text(event.offset.totalDays);
-		// 	$(this).find('.hours').text(event.offset.hours);
-		// 	$(this).find('.minutes').text(event.offset.minutes);
-		// 	$(this).find('.seconds').text(event.offset.seconds);
-		// });
+		var now = new Date();
+		var countTo = 3 * 24 * 60 * 60 * 1000 + now.valueOf();   
+		var eventDate = new Date('Oct 18 2021 08:00:00 EST');
+		var countTo = eventDate.valueOf();
+		$('.timer').countdown(countTo, function (event) {
+			$(this).find('.days').text(event.offset.totalDays);
+			$(this).find('.hours').text(event.offset.hours);
+			$(this).find('.minutes').text(event.offset.minutes);
+			$(this).find('.seconds').text(event.offset.seconds);
+		});
 
 		$('#da-slider').cslider({
 			autoplay: true,
