@@ -231,13 +231,13 @@ color: #FF89BA;
 
 /* Backgrounds
 ----------------------------------------------------------------------------- */
-/* .default-bg {
+.default-bg {
 	background-color: #222222;
 	color: #ffffff;
 }
 .default-bg.blue {
 	background-color: #55acee;
-} */
+}
 .btn-primary {
 color: #fff;
 background-color: #BD0451;
