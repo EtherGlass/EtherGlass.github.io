@@ -886,7 +886,7 @@
 			{
 				id: "EG-43",
 				title: "EtherGlass #43",
-				catergory: CAT_ANIMAL + " " + CAT_BIRD + " " + CAT_MAIN + " " + CAT_POLY,
+				catergory: CAT_ANIMAL + " " + CAT_BIRD + " " + CAT_MAIN + " " + CAT_ETH,
 				picPath: "images/nfts/EG43.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/76505008690628832182644120658996052592304759113794803818016025654012992815105"
