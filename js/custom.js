@@ -1398,6 +1398,34 @@
 				picPath: "images/nfts/zodiac/virgo.jpg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/30797626325821182273095146721708764948520176300845607996802418732484645618864"
+			}, {
+				id: "disc6",
+				title: "EtherGlass DISC VI",
+				catergory: CAT_MATH + " " + CAT_DISC + " " + CAT_POLY,
+				picPath: "images/nfts/disc6.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025755168062577162"
+			}, {
+				id: "disc7",
+				title: "EtherGlass DISC VII",
+				catergory: CAT_MATH + " " + CAT_DISC + " " + CAT_POLY,
+				picPath: "images/nfts/disc7.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025756267574205772"
+			}, {
+				id: "disc8",
+				title: "EtherGlass DISC VIII",
+				catergory: CAT_MATH + " " + CAT_DISC + " " + CAT_POLY,
+				picPath: "images/nfts/disc8.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025757367085832548"
+			}, {
+				id: "disc9",
+				title: "EtherGlass DISC IX",
+				catergory: CAT_MATH + " " + CAT_DISC + " " + CAT_POLY,
+				picPath: "images/nfts/disc9.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025758466597460042"
 			}
 
 		];
