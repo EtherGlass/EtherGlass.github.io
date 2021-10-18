@@ -1422,7 +1422,7 @@
 			}, {
 				id: "disc9",
 				title: "EtherGlass DISC IX",
-				catergory: CAT_MATH + " " + CAT_DISC + " " + CAT_POLY,
+				catergory: CAT_ICON + " " + CAT_DISC + " " + CAT_POLY,
 				picPath: "images/nfts/disc9.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025758466597460042"
