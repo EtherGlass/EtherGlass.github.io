@@ -1233,7 +1233,7 @@
 			}, {
 				id: "EG-65",
 				title: "EtherGlass #65",
-				catergory: CAT_ANIMAL + " " + CAT_CAT + " " + CAT_POLY,
+				catergory: CAT_ANIMAL + " " + CAT_CAT + " " + CAT_POLY + " " + CAT_MAIN,
 				picPath: "images/nfts/EG65.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025741973923037384"
@@ -1426,6 +1426,27 @@
 				picPath: "images/nfts/disc9.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025758466597460042"
+			}, {
+				id: "EG-66",
+				title: "EtherGlass #66",
+				catergory: CAT_MAIN + " " + CAT_POLY + " " + CAT_AQUA + " " + CAT_ARCH,
+				picPath: "images/nfts/EG66.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025760665620709442"
+			}, {
+				id: "picasso2",
+				title: "EtherGlass Picasso II",
+				catergory: CAT_ICON + " " + CAT_ART + " " + CAT_POLY,
+				picPath: "images/nfts/picasso2.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025747471481176074"
+			}, {
+				id: "w1",
+				title: "EtherGlass W",
+				catergory: CAT_LOGO + " " + CAT_ART + " " + CAT_POLY + " " + CAT_MGZN,
+				picPath: "images/nfts/w1.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025761765132339008"
 			}
 
 		];
