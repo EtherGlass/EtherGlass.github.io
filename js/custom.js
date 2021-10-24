@@ -36,6 +36,7 @@
 	const CAT_ETH = "eth";
 	const CAT_POLY = "polygon";
 	const CAT_XTZ = "xtz";
+	const CAT_BSC = "bsc";
 
 	var items = getMetadata();
 	shuffleArray(items);
@@ -67,10 +68,11 @@
 
 
 		// slideshows
-		picPaths = []
+		picPaths = [];
+		picPaths.push('images/banner.jpg');
 		picPaths.push('images/posts/discs.jpg');
 		picPaths.push('images/posts/zodiacs.jpg');
-		picPaths.push('images/banner.jpg');
+		
 		items.forEach(data => {
 			picPaths.push(data.picPath);
 		});
@@ -1447,6 +1449,13 @@
 				picPath: "images/nfts/w1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025761765132339008"
+			}, {
+				id: "bsc",
+				title: "EtherGlass W",
+				catergory: CAT_LOGO + " " + CAT_ART + " " + CAT_BSC + " " + CAT_MGZN + " " + CAT_CRYPTO,
+				picPath: "images/nfts/bsc.jpeg",
+				marketplace: "NFTify",
+				itemLink: "https://etherglass.nftify.network/nft/etherglass-binance-bsc"
 			}
 
 		];
