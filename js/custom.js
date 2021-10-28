@@ -1455,11 +1455,32 @@
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025761765132339008"
 			}, {
 				id: "bsc",
-				title: "EtherGlass W",
+				title: "EtherGlass Binance BSC",
 				catergory: CAT_LOGO + " " + CAT_ART + " " + CAT_BSC + " " + CAT_MGZN + " " + CAT_CRYPTO,
 				picPath: "images/nfts/bsc.jpeg",
 				marketplace: "NFTify",
 				itemLink: "https://etherglass.nftify.network/nft/etherglass-binance-bsc"
+			}, {
+				id: "playboy",
+				title: "EtherGlass PLAYBOY",
+				catergory: CAT_LOGO + " " + CAT_ART + " " + CAT_POLY + " " + CAT_MGZN,
+				picPath: "images/nfts/playboy.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025762864643971897"
+			}, {
+				id: "blocktoad",
+				title: "EtherGlass BlockToad",
+				catergory: CAT_LOGO + " " + CAT_ART + " " + CAT_POLY + " " + CAT_MGZN + " " + CAT_1,
+				picPath: "images/nfts/blocktoad.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025763964155592705"
+			}, {
+				id: "dragon",
+				title: "EtherGlass Binance BSC",
+				catergory: CAT_LUCK + " " + CAT_ART + " " + CAT_BSC + " " + CAT_1,
+				picPath: "images/nfts/ch/dragon.png",
+				marketplace: "NFTify",
+				itemLink: "https://etherglass.nftify.network/nft/symbol-chinese-dragon"
 			}
 
 		];
