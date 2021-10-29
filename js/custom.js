@@ -32,6 +32,7 @@
 	const CAT_MOGAO = "mogao";
 	const CAT_DISC = "disc";
 	const CAT_ZODC = "zodiac";
+	const CAT_SYMB = "symbol";
 
 	const CAT_ETH = "eth";
 	const CAT_POLY = "polygon";
@@ -1476,11 +1477,18 @@
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025763964155592705"
 			}, {
 				id: "dragon",
-				title: "EtherGlass Binance BSC",
-				catergory: CAT_LUCK + " " + CAT_ART + " " + CAT_BSC + " " + CAT_1,
+				title: "Symbol Dragon",
+				catergory: CAT_LUCK + " " + CAT_ART + " " + CAT_BSC + " " + CAT_1 + " " + CAT_SYMB,
 				picPath: "images/nfts/ch/dragon.png",
 				marketplace: "NFTify",
 				itemLink: "https://etherglass.nftify.network/nft/symbol-chinese-dragon"
+			}, {
+				id: "tiger",
+				title: "Symbol Tiger",
+				catergory: CAT_ART + " " + CAT_BSC + " " + CAT_1 + " " + CAT_CAT + " " + CAT_SYMB,
+				picPath: "images/nfts/ch/tiger.png",
+				marketplace: "Rarible",
+				itemLink: "https://rarible.com/token/0xf6793da657495ffeff9ee6350824910abc21356c:40235025269914760364426402452525418844941128682479447597623503491228286058497?tab=details"
 			}
 
 		];
