@@ -1489,6 +1489,20 @@
 				picPath: "images/nfts/ch/tiger.png",
 				marketplace: "Rarible",
 				itemLink: "https://rarible.com/token/0xf6793da657495ffeff9ee6350824910abc21356c:40235025269914760364426402452525418844941128682479447597623503491228286058497?tab=details"
+			}, {
+				id: "dog",
+				title: "Symbol Dog",
+				catergory: CAT_ART + " " + CAT_ETH + " " + CAT_1 + " " + CAT_DOGE + " " + CAT_SYMB,
+				picPath: "images/nfts/ch/dog.png",
+				marketplace: "Rarible",
+				itemLink: "https://rarible.com/token/0xf6793da657495ffeff9ee6350824910abc21356c:40235025269914760364426402452525418844941128682479447597623503491228286058498?tab=details"
+			}, {
+				id: "bull",
+				title: "Symbol Ox",
+				catergory: CAT_ART + " " + CAT_ETH + " " + CAT_1 + " " + CAT_LUCK + " " + CAT_SYMB,
+				picPath: "images/nfts/ch/bull.png",
+				marketplace: "Rarible",
+				itemLink: "https://rarible.com/token/0xf6793da657495ffeff9ee6350824910abc21356c:40235025269914760364426402452525418844941128682479447597623503491228286058499?tab=bids"
 			}
 
 		];
