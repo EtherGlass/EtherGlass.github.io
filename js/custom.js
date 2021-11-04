@@ -75,6 +75,7 @@
 		// slideshows
 		picPaths = [];
 		picPaths.push('images/banner.jpg');
+		picPaths.push('images/lady1.jpg');
 		picPaths.push('images/posts/discs.jpg');
 		picPaths.push('images/posts/zodiacs.jpg');
 		
@@ -1471,7 +1472,7 @@
 			}, {
 				id: "blocktoad",
 				title: "EtherGlass BlockToad",
-				catergory: CAT_LOGO + " " + CAT_ART + " " + CAT_POLY + " " + CAT_MGZN + " " + CAT_1,
+				catergory: CAT_LOGO + " " + CAT_AQUA + " " + CAT_POLY + " " + CAT_ANIMAL + " " + CAT_1,
 				picPath: "images/nfts/blocktoad.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025763964155592705"
