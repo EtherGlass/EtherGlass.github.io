@@ -1504,6 +1504,20 @@
 				picPath: "images/nfts/ch/bull.png",
 				marketplace: "Rarible",
 				itemLink: "https://rarible.com/token/0xf6793da657495ffeff9ee6350824910abc21356c:40235025269914760364426402452525418844941128682479447597623503491228286058499?tab=bids"
+			}, {
+				id: "EG67",
+				title: "EtherGlass #67",
+				catergory: CAT_MAIN + " " + CAT_POLY + " " + CAT_LUCK + " " + CAT_10,
+				picPath: "images/nfts/EG67.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025765063667220490"
+			}, {
+				id: "life1",
+				title: "EtherGlass BlockToad",
+				catergory: CAT_LOGO + " " + CAT_MGZN + " " + CAT_POLY + " " + CAT_ICON,
+				picPath: "images/nfts/life1.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025766163178850142"
 			}
 
 		];
