@@ -38,6 +38,7 @@
 	const CAT_POLY = "polygon";
 	const CAT_XTZ = "xtz";
 	const CAT_BSC = "bsc";
+	const CAT_SOL = "sol";
 
 	const CAT_1 = "1";
 	const CAT_10 = "10";
@@ -1518,6 +1519,20 @@
 				picPath: "images/nfts/life1.jpeg",
 				marketplace: "OpenSea",
 				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025766163178850142"
+			}, {
+				id: "monster-skeleton",
+				title: "Monster Skeleton",
+				catergory: CAT_1 + " " + CAT_SOL + " " + CAT_DARK,
+				picPath: "images/nfts/monster/monster-skeleton.png",
+				marketplace: "SolSea",
+				itemLink: "https://solsea.io/nft/4mPKSYK29pagERB3HMcdGb8NDAHiSpKyyqTTRVSzm686"
+			}, {
+				id: "1BNB",
+				title: "ONE BNB",
+				catergory: CAT_BSC + " " + CAT_ONE + " " + CAT_CRYPTO + " " + CAT_10,
+				picPath: "images/nfts/1BNB.jpeg",
+				marketplace: "NFTify",
+				itemLink: "https://etherglass.nftify.network/nft/one-bnb-9"
 			}
 
 		];
