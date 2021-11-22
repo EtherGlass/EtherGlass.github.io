@@ -1533,6 +1533,34 @@
 				picPath: "images/nfts/1BNB.jpeg",
 				marketplace: "NFTify",
 				itemLink: "https://etherglass.nftify.network/nft/one-bnb-9"
+			}, {
+				id: "berlin",
+				title: "EtherGlass Berlin Wall",
+				catergory: CAT_LOGO + " " + CAT_POLY + " " + CAT_ICON,
+				picPath: "images/nfts/berlin.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025767262690478021"
+			}, {
+				id: "gm",
+				title: "EtherGlass GM",
+				catergory: CAT_LOGO + " " + CAT_POLY + " " + CAT_ICON,
+				picPath: "images/nfts/gm.png",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/40235025269914760364426402452525418844941128682479447597623503493427309314413"
+			}, {
+				id: "bayc",
+				title: "EtherGlass BAYC",
+				catergory: CAT_LOGO + " " + CAT_POLY + " " + CAT_ICON,
+				picPath: "images/nfts/bayc.jpeg",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/76505008690628832182644120658996052592304759113794803818016025768362202104808"
+			}, {
+				id: "pixel",
+				title: "EtherGlass Pixel",
+				catergory: CAT_ART + " " + CAT_ETH + " " + CAT_1,
+				picPath: "images/nfts/pixel.png",
+				marketplace: "Rarible",
+				itemLink: "https://rarible.com/token/0xF6793dA657495ffeFF9Ee6350824910Abc21356C:40235025269914760364426402452525418844941128682479447597623503491228286058500?tab=details"
 			}
 
 		];
