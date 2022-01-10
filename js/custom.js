@@ -1561,6 +1561,41 @@
 				picPath: "images/nfts/pixel.png",
 				marketplace: "Rarible",
 				itemLink: "https://rarible.com/token/0xF6793dA657495ffeFF9Ee6350824910Abc21356C:40235025269914760364426402452525418844941128682479447597623503491228286058500?tab=details"
+			}, {
+				id: "moai-volcano",
+				title: "EtherGlass Moai Volcano",
+				catergory: CAT_ART + " " + CAT_ETH + " " + CAT_1,
+				picPath: "images/nfts/moai-volcano.png",
+				marketplace: "Rarible",
+				itemLink: "https://rarible.com/token/0xf6793da657495ffeff9ee6350824910abc21356c:40235025269914760364426402452525418844941128682479447597623503491228286058501"
+			}, {
+				id: "EG70",
+				title: "EtherGlass #70",
+				catergory: CAT_MAIN + " " + CAT_POLY + " " + CAT_DARK,
+				picPath: "images/nfts/EG70.png",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/40235025269914760364426402452525418844941128682479447597623503497825355825252"
+			}, {
+				id: "EG71",
+				title: "EtherGlass #71",
+				catergory: CAT_MAIN + " " + CAT_POLY + " " + CAT_CRYPTO + " " + CAT_50 + " " + CAT_OTHER,
+				picPath: "images/nfts/EG71.png",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/40235025269914760364426402452525418844941128682479447597623503500024379080804"
+			}, {
+				id: "EG72",
+				title: "EtherGlass #72",
+				catergory: CAT_MAIN + " " + CAT_POLY + " " + CAT_ANIMAL + " " + CAT_50,
+				picPath: "images/nfts/EG72.png",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/40235025269914760364426402452525418844941128682479447597623503504422425591828"
+			}, {
+				id: "EG73",
+				title: "EtherGlass #73",
+				catergory: CAT_MAIN + " " + CAT_POLY + " " + CAT_LUCK + " " + CAT_ANIMAL + " " + CAT_50,
+				picPath: "images/nfts/EG73.png",
+				marketplace: "OpenSea",
+				itemLink: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/40235025269914760364426402452525418844941128682479447597623503505521937219604"
 			}
 
 		];
